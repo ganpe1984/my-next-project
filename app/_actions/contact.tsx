@@ -91,8 +91,7 @@ export async function createContactData(_prevState: any, formData: FormData) {
   );
 
   try {
-    // await result.json();
-    console.log(result);
+    await result.json();
   } catch (e) {
     console.log(e);
     return {
